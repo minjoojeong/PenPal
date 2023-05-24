@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410ADA0F29222F8400A682E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA0E29222F8400A682E3 /* AppDelegate.swift */; };
+		410ADA1129222F8400A682E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA1029222F8400A682E3 /* SceneDelegate.swift */; };
+		410ADA1329222F8400A682E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA1229222F8400A682E3 /* ViewController.swift */; };
+		410ADA1629222F8400A682E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410ADA1429222F8400A682E3 /* Main.storyboard */; };
+		410ADA1829222F8600A682E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410ADA1729222F8600A682E3 /* Assets.xcassets */; };
+		410ADA1B29222F8600A682E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410ADA1929222F8600A682E3 /* LaunchScreen.storyboard */; };
+		410ADA232922DB8100A682E3 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA222922DB8100A682E3 /* LibraryViewController.swift */; };
+		410ADA2B292C32A300A682E3 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA2A292C32A300A682E3 /* Quote.swift */; };
+		410ADA2D292C32C700A682E3 /* Authors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA2C292C32C700A682E3 /* Authors.swift */; };
+		410ADA33292C46FB00A682E3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA32292C46FB00A682E3 /* SettingViewController.swift */; };
+		410ADA5C292C4A5800A682E3 /* Pen_Pal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA5A292C4A5800A682E3 /* Pen_Pal.xcdatamodeld */; };
+		410ADA5E29347D8000A682E3 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA5D29347D8000A682E3 /* Assistant.swift */; };
+		410ADA62293574D000A682E3 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA61293574D000A682E3 /* Library.swift */; };
+		410ADA71293D5DDD00A682E3 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA6F293D5DDD00A682E3 /* LibraryCell.swift */; };
+		410ADA72293D5DDD00A682E3 /* LibraryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410ADA70293D5DDD00A682E3 /* LibraryCell.xib */; };
+		410ADA78293D68AE00A682E3 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA77293D68AE00A682E3 /* BooksViewController.swift */; };
+		410ADA7C293DA4C800A682E3 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410ADA7B293DA4C800A682E3 /* SearchResult.swift */; };
+		41DE96AF2943C3B10072D171 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE96AE2943C3B10072D171 /* APIResults.swift */; };
+		41DE96B32943D6580072D171 /* Throwable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE96B22943D6580072D171 /* Throwable.swift */; };
+		41DE96B72943EA110072D171 /* quotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41DE96B62943EA110072D171 /* quotes.txt */; };
+		41DE96BD29440A040072D171 /* WikiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE96BC29440A040072D171 /* WikiImage.swift */; };
+		41DE96C529441EC10072D171 /* WikiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE96C429441EC10072D171 /* WikiController.swift */; };
+		41DE96C7294431BC0072D171 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE96C6294431BC0072D171 /* CreditViewController.swift */; };
+		41DE96CA294437290072D171 /* Credit.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41DE96C8294437290072D171 /* Credit.txt */; };
+		41DE96CB294437290072D171 /* Sources.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41DE96C9294437290072D171 /* Sources.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410ADA0B29222F8400A682E3 /* Pen Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pen Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410ADA0E29222F8400A682E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410ADA1029222F8400A682E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		410ADA1229222F8400A682E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410ADA1529222F8400A682E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410ADA1729222F8600A682E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410ADA1A29222F8600A682E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410ADA1C29222F8600A682E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410ADA222922DB8100A682E3 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		410ADA2A292C32A300A682E3 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		410ADA2C292C32C700A682E3 /* Authors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authors.swift; sourceTree = "<group>"; };
+		410ADA32292C46FB00A682E3 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		410ADA5B292C4A5800A682E3 /* Pen_Pal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pen_Pal.xcdatamodel; sourceTree = "<group>"; };
+		410ADA5D29347D8000A682E3 /* Assistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assistant.swift; sourceTree = "<group>"; };
+		410ADA61293574D000A682E3 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		410ADA6F293D5DDD00A682E3 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		410ADA70293D5DDD00A682E3 /* LibraryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCell.xib; sourceTree = "<group>"; };
+		410ADA77293D68AE00A682E3 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		410ADA7B293DA4C800A682E3 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		41DE96AE2943C3B10072D171 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
+		41DE96B22943D6580072D171 /* Throwable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throwable.swift; sourceTree = "<group>"; };
+		41DE96B62943EA110072D171 /* quotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quotes.txt; sourceTree = "<group>"; };
+		41DE96BC29440A040072D171 /* WikiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiImage.swift; sourceTree = "<group>"; };
+		41DE96C429441EC10072D171 /* WikiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiController.swift; sourceTree = "<group>"; };
+		41DE96C6294431BC0072D171 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		41DE96C8294437290072D171 /* Credit.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credit.txt; sourceTree = "<group>"; };
+		41DE96C9294437290072D171 /* Sources.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sources.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410ADA0829222F8400A682E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410ADA0229222F8400A682E3 = {
+			isa = PBXGroup;
+			children = (
+				410ADA0D29222F8400A682E3 /* Pen Pal */,
+				410ADA0C29222F8400A682E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410ADA0C29222F8400A682E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410ADA0B29222F8400A682E3 /* Pen Pal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410ADA0D29222F8400A682E3 /* Pen Pal */ = {
+			isa = PBXGroup;
+			children = (
+				41DE96B62943EA110072D171 /* quotes.txt */,
+				41DE96C8294437290072D171 /* Credit.txt */,
+				41DE96C9294437290072D171 /* Sources.txt */,
+				410ADA0E29222F8400A682E3 /* AppDelegate.swift */,
+				410ADA1029222F8400A682E3 /* SceneDelegate.swift */,
+				410ADA2A292C32A300A682E3 /* Quote.swift */,
+				410ADA61293574D000A682E3 /* Library.swift */,
+				410ADA2C292C32C700A682E3 /* Authors.swift */,
+				410ADA5D29347D8000A682E3 /* Assistant.swift */,
+				410ADA1229222F8400A682E3 /* ViewController.swift */,
+				410ADA32292C46FB00A682E3 /* SettingViewController.swift */,
+				410ADA222922DB8100A682E3 /* LibraryViewController.swift */,
+				410ADA6F293D5DDD00A682E3 /* LibraryCell.swift */,
+				410ADA77293D68AE00A682E3 /* BooksViewController.swift */,
+				41DE96C6294431BC0072D171 /* CreditViewController.swift */,
+				41DE96B22943D6580072D171 /* Throwable.swift */,
+				410ADA7B293DA4C800A682E3 /* SearchResult.swift */,
+				41DE96AE2943C3B10072D171 /* APIResults.swift */,
+				41DE96BC29440A040072D171 /* WikiImage.swift */,
+				41DE96C429441EC10072D171 /* WikiController.swift */,
+				410ADA70293D5DDD00A682E3 /* LibraryCell.xib */,
+				410ADA1429222F8400A682E3 /* Main.storyboard */,
+				410ADA1729222F8600A682E3 /* Assets.xcassets */,
+				410ADA1929222F8600A682E3 /* LaunchScreen.storyboard */,
+				410ADA1C29222F8600A682E3 /* Info.plist */,
+				410ADA5A292C4A5800A682E3 /* Pen_Pal.xcdatamodeld */,
+			);
+			path = "Pen Pal";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410ADA0A29222F8400A682E3 /* Pen Pal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410ADA1F29222F8600A682E3 /* Build configuration list for PBXNativeTarget "Pen Pal" */;
+			buildPhases = (
+				410ADA0729222F8400A682E3 /* Sources */,
+				410ADA0829222F8400A682E3 /* Frameworks */,
+				410ADA0929222F8400A682E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pen Pal";
+			productName = "Pen Pal";
+			productReference = 410ADA0B29222F8400A682E3 /* Pen Pal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410ADA0329222F8400A682E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					410ADA0A29222F8400A682E3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 410ADA0629222F8400A682E3 /* Build configuration list for PBXProject "Pen Pal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410ADA0229222F8400A682E3;
+			productRefGroup = 410ADA0C29222F8400A682E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410ADA0A29222F8400A682E3 /* Pen Pal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410ADA0929222F8400A682E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410ADA1B29222F8600A682E3 /* LaunchScreen.storyboard in Resources */,
+				410ADA1829222F8600A682E3 /* Assets.xcassets in Resources */,
+				410ADA72293D5DDD00A682E3 /* LibraryCell.xib in Resources */,
+				41DE96CA294437290072D171 /* Credit.txt in Resources */,
+				410ADA1629222F8400A682E3 /* Main.storyboard in Resources */,
+				41DE96CB294437290072D171 /* Sources.txt in Resources */,
+				41DE96B72943EA110072D171 /* quotes.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410ADA0729222F8400A682E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DE96C7294431BC0072D171 /* CreditViewController.swift in Sources */,
+				410ADA1329222F8400A682E3 /* ViewController.swift in Sources */,
+				410ADA0F29222F8400A682E3 /* AppDelegate.swift in Sources */,
+				41DE96B32943D6580072D171 /* Throwable.swift in Sources */,
+				410ADA232922DB8100A682E3 /* LibraryViewController.swift in Sources */,
+				410ADA5C292C4A5800A682E3 /* Pen_Pal.xcdatamodeld in Sources */,
+				41DE96C529441EC10072D171 /* WikiController.swift in Sources */,
+				410ADA2D292C32C700A682E3 /* Authors.swift in Sources */,
+				41DE96AF2943C3B10072D171 /* APIResults.swift in Sources */,
+				410ADA78293D68AE00A682E3 /* BooksViewController.swift in Sources */,
+				410ADA1129222F8400A682E3 /* SceneDelegate.swift in Sources */,
+				410ADA7C293DA4C800A682E3 /* SearchResult.swift in Sources */,
+				410ADA33292C46FB00A682E3 /* SettingViewController.swift in Sources */,
+				410ADA62293574D000A682E3 /* Library.swift in Sources */,
+				41DE96BD29440A040072D171 /* WikiImage.swift in Sources */,
+				410ADA71293D5DDD00A682E3 /* LibraryCell.swift in Sources */,
+				410ADA5E29347D8000A682E3 /* Assistant.swift in Sources */,
+				410ADA2B292C32A300A682E3 /* Quote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		410ADA1429222F8400A682E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410ADA1529222F8400A682E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410ADA1929222F8600A682E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410ADA1A29222F8600A682E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410ADA1D29222F8600A682E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410ADA1E29222F8600A682E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410ADA2029222F8600A682E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pen Pal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "minjoo.Pen-Pal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410ADA2129222F8600A682E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pen Pal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "minjoo.Pen-Pal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410ADA0629222F8400A682E3 /* Build configuration list for PBXProject "Pen Pal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410ADA1D29222F8600A682E3 /* Debug */,
+				410ADA1E29222F8600A682E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410ADA1F29222F8600A682E3 /* Build configuration list for PBXNativeTarget "Pen Pal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410ADA2029222F8600A682E3 /* Debug */,
+				410ADA2129222F8600A682E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		410ADA5A292C4A5800A682E3 /* Pen_Pal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				410ADA5B292C4A5800A682E3 /* Pen_Pal.xcdatamodel */,
+			);
+			currentVersion = 410ADA5B292C4A5800A682E3 /* Pen_Pal.xcdatamodel */;
+			path = Pen_Pal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 410ADA0329222F8400A682E3 /* Project object */;
+}

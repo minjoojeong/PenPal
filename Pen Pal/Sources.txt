@@ -1,0 +1,27 @@
+Authors and Translators
+
+Natsume Soseki:
+
+Kokoro- Meredith McKinney
+Zen Haiku-	Sōiku Shigematsu
+Grass on the Wayside-	Edwin McClellan
+I Am a Cat-	Aiko Ito
+Kokoro-	Edwin McClellan
+
+Hermann Hesse:
+
+Siddhartha	Hilda Rosner
+Narcissus and Goldmund	Ursule Molinaro
+Demian	Thomas Mann
+
+Ivan Turgenev:
+
+A Sportsman's Notebook- Charles and Natasha Hepburn
+Spring Torrents-	Leonard Schapiro
+Fathers and Children-	Constance Garnett
+
+
+API Calls:
+
+Wikipedia.org
+Google Books

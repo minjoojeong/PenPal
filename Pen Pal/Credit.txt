@@ -1,0 +1,39 @@
+Made for Hunter CSCI 39597 01 iOS Development:
+Taught by Prof Ali ElSayed
+
+Coding and images by Min Joo Jeong
+
+Google Books API Documentation:
+https://developers.google.com/books/docs/v1/using
+
+Wikipedia API Documentation:
+https://www.mediawiki.org/wiki/API:Main_page
+
+Fahim Farook UIKit Apprentice textbook
+
+Custom Table View Cell with nib:
+https://www.youtube.com/watch?v=WK5vrOD1zCQ
+
+Read CSV file:
+https://developer.apple.com/forums/thread/90293
+
+Change image programatically:
+https://developer.apple.com/forums/thread/6301
+
+Select Row:
+https://developer.apple.com/documentation/uikit/uitableviewdelegate/handling_row_selection_in_a_table_view
+
+Popover:
+https://stackoverflow.com/questions/57885872/how-to-size-a-popup-programmatically-in-swift-without-storyboard
+
+API Calls
+https://levelup.gitconnected.com/swift-making-an-api-call-and-fetching-json-acd364c77a71
+
+https://stackoverflow.com/questions/57488681/how-to-trigger-onesignal-api-call-with-swift-button
+
+Throwable
+https://medium.com/@michaeldouglascs/how-to-safely-decode-arrays-using-decodable-result-type-in-swift-5b975ea11ff5
+
+WIKI Api decodable struct
+https://stackoverflow.com/questions/54415777/need-help-parsing-wikipedia-json-api-in-swift
+

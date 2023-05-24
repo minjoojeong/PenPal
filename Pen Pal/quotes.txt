@@ -1,0 +1,13 @@
+natsume	Natsume Soseki	I believe you don't really become a finer person just by reading lots of books.	Kokoro	Meredith McKinney	11
+natsume	Natsume Soseki	Autumn's already started: / There remains a book / Not yet read though.	Zen Haiku	N/A	12
+natsume	Natsume Soseki	People really didn't change very much-- they only decayed.	Grass on the Wayside	Edwin McClellan	13
+natsume	Natsume Soseki	"There is nothing in the world more pleasant than to eat something one has never yet eaten, or to see something one has never seen before. "	I Am a Cat	Aiko Ito	14
+natsume	Natsume Soseki	"I thought about my diploma... though it seemed to have some significance as a kind of symbol of the beginning of a new life, I could not help feeling that it was a meaningless scrap of paper too."	Kokoro	Edwin McClellan	15
+hesse	Hermann Hesse	Wisdom is not communicable. The wisdom which a wise man tries to communicate always sounds foolish.	Siddhartha	Hilda Rosner	21
+hesse	Hermann Hesse	"...gentleness is stronger than severity, water is stronger than rock, love is stronger than force."	Siddhartha	Hilda Rosner	22
+hesse	Hermann Hesse	"Because the world is so full of death and horror, I try again and again to console my heart and pick the flowers that grow in the midst of hell."	Narcissus and Goldmund	Ursule Molinaro	23
+hesse	Hermann Hesse	"If you hate a person, you hate something in him that is part of yourself. What isn't part of ourselves doesn't disturb us."	Demian	Thomas Mann	24
+hesse	Hermann Hesse	Morality has always seemed to me insufferable. I can't express it very well.	Demian	Thomas Mann	25
+turgenev	Ivan Turgenev	The leaves were whispering faintly over my head: you could have told the time of year from their whisper alone.	A Sportsman's Notebook	Charles and Natasha Hepburn	31
+turgenev	Ivan Turgenev	Weak people never put an end to things themselves. They always wait for the end.	Spring Torrents	Leonard Schapiro	32
+turgenev	Ivan Turgenev	"Death's an old joke, but it comes fresh to every one."	Fathers and Children	Constance Garnett	33
