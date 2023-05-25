@@ -6,6 +6,6 @@ Illustrations by me.
 
 Uses Google Books and Wikipedia API
 
-![](https://i.imgur.com/IkNlGRR.gif)
+<iframe src="https://drive.google.com/file/d/1JgZsmL78OoUxg80V7kM4iJSSPvxKwpqS/preview" width="640" height="480" allow="autoplay"></iframe>
 
 see Credit.txt for further credits
