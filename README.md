@@ -5,7 +5,6 @@ See select quotes from some of my favorite authors: Natsume Soseki, Hermann Hess
 Illustrations by me.
 
 Uses Google Books and Wikipedia API
-
-<iframe src="https://drive.google.com/file/d/1JgZsmL78OoUxg80V7kM4iJSSPvxKwpqS/preview" width="640" height="480" allow="autoplay"></iframe>
+![](https://lh3.googleusercontent.com/drive-viewer/AFGJ81pALWg0Ff2ziPKA4tpwjAnaBhXVGXq2I1czZsIXoScI9eUTfg3s565JA_S8Z2ZNksbVRyvvjfa708g9wS9opJG5fr35oA=s2560)
 
 see Credit.txt for further credits
