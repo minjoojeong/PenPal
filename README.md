@@ -6,6 +6,5 @@ Illustrations by me.
 
 Uses Google Books and Wikipedia API
 
-![penpal](https://imgur.com/BFNJkq0.gif)
-
+![penpal](https://imgur.com/F1XbVoO.gif)
 see Credit.txt for further credits
